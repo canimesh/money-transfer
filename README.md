@@ -74,7 +74,7 @@ For instance, to retrieve the information of the account created above, the URL 
 
 If successful, the API will return an HTTP 200 with a body like the following
 ```$json
-{"id":"62dae1d4-ce4d-46af-b2d5-885417408095","owner":"Animesh","balanceCents":500}
+{"id":"62dae1d4-ce4d-46af-b2d5-885417408095","owner":"Animesh","amount":500}
 ``` 
 
 ## Transfer request
@@ -89,7 +89,7 @@ with a body like the example
 {
    	"fromAccount": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
    	"toAccount": "3fa85f64-5717-4562-b3fc-2c963f66abcd",
-   	"amountCents": 100
+   	"amount": 100
 }
 ```
 
@@ -126,4 +126,3 @@ Execute `gradle test` to launch the tests. These test both the Java code and the
 - Add version and timestamp comparison for aggregates events handling especially for a distributed event sourcing system which might use a MQ and several listener systems
 - Clean up code 
 - Improve DDD and introduce more encapsulation
-
