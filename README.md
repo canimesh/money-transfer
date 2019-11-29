@@ -126,3 +126,4 @@ Execute `gradle test` to launch the tests. These test both the Java code and the
 - Add version and timestamp comparison for aggregates events handling especially for a distributed event sourcing system which might use a MQ and several listener systems
 - Clean up code 
 - Improve DDD and introduce more encapsulation
+
