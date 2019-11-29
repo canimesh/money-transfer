@@ -1,0 +1,4 @@
+<factorypath>
+    <factorypathentry kind="PLUGIN" id="com.amazonaws.eclipse.simpleworkflow" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="EXTJAR" id="D:\tests\revolut\dagger-compiler-2.25.2.jar" enabled="true" runInBatchMode="false"/>
+</factorypath>
